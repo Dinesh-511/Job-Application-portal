@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 2rem;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+form input, form button {
+  display: block;
+  margin: 10px 0;
+  padding: 8px;
+  width: 300px;
+}
+
+form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+header, footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #222;
+  color: #fff;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}

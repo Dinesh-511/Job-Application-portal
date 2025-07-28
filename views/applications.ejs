@@ -1,0 +1,16 @@
+<%- include("../partials/header") %>
+
+<h2>All Applications</h2>
+
+<ul>
+  <% applications.forEach(app => { %>
+    <li>
+      <strong>Name:</strong> <%= app.name %><br>
+      <strong>Email:</strong> <%= app.email %><br>
+      <strong>Resume:</strong> <%= app.resume %>
+      <hr>
+    </li>
+  <% }); %>
+</ul>
+
+<%- include("../partials/footer") %>

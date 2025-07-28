@@ -1,0 +1,11 @@
+<%- include("../partials/header") %>
+
+<h2>Job Application Form</h2>
+<form action="/apply" method="POST" enctype="multipart/form-data">
+  <input name="name" type="text" placeholder="Your Name" required>
+  <input name="email" type="email" placeholder="Your Email" required>
+  <input name="resume" type="file" accept=".pdf" required>
+  <button type="submit">Submit Application</button>
+</form>
+
+<%- include("../partials/footer") %>
